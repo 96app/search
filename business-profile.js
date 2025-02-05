@@ -37,12 +37,25 @@ const businesses = [
         mapLink: 'https://maps.app.goo.gl/ngzN39p2EXzgYB7Q9',
         description: 'We are Graphic Design based studio, offering creative designs, including website design. <br> <br> More..<br> Computer and Software maintenance.',
         verified: true
+    },
+    {
+        logo: './images/business-logos/default.png',
+        name: 'Rolda cleaning and laundry services',
+        category: 'Cleaning Services',
+        location: 'Polokwane',
+        areas: ['Seshego'], // Add areas here
+        phone: '0818888922',
+        email: 'roldanethi@gmail.com',
+        googleMapsEmbedLink: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d138801.1808379738!2d29.366865598407028!3d-23.910204475796903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d8401183307b%3A0xa720ddd4b18e4df7!2sPolokwane!5e0!3m2!1sen!2sza!4v1738760660352!5m2!1sen!2sza',
+        mapLink: 'https://maps.app.goo.gl/RygSic1Go9dvqfsq9',
+        description: 'A laundry and services business provides cleaning and maintenance services for clothing, textiles, and other fabrics. The business may offer various services, including washing, drying, ironing, folding, and dry cleaning.',
+        verified: true
     }
-];
+];   
 
 
-const validLocations = ['Polokwane', 'Solomondale', 'Sebayeng']; // Add Location / Area here Again
-const validCategories = ['Art Studio', 'IT Services', 'Consulting', 'Restaurant', 'Art', 'Graphic designer', 'Computer Repair'];
+const validLocations = ['Polokwane', 'Solomondale', 'Sebayeng', 'Seshego']; // Add Location / Area here Again
+const validCategories = ['Art Studio', 'IT Services', 'Consulting', 'Restaurant', 'Art', 'Graphic designer', 'Computer Repair', 'Cleaning Services'];
 
 // Input and ghost text elements
 const locationInput = document.getElementById('location');
