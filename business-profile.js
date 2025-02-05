@@ -116,7 +116,13 @@ function getBestMatch(input, validItems) {
         return bestMatch;
     }, { match: null, distance: Infinity }).match;
 }
-
+function callBusiness(phone) {
+    if (phone && phone !== 'undefined') {
+        window.location.href = `tel:${phone}`;
+    } else {
+        alert('Phone number not available.');
+    }
+}
 // Show suggestions based on fuzzy match
 function showSuggestions(inputId, suggestions) {
     const suggestionBox = document.getElementById(`${inputId}Suggestions`);
