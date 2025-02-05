@@ -42,7 +42,7 @@ const businesses = [
 
 
 const validLocations = ['Polokwane', 'Solomondale', 'Sebayeng']; // Add Location / Area here Again
-const validCategories = ['Art Studio', 'IT Services', 'Consulting', 'Restaurant', 'Art'];
+const validCategories = ['Art Studio', 'IT Services', 'Consulting', 'Restaurant', 'Art', 'Graphic designer', 'Computer Repair'];
 
 // Input and ghost text elements
 const locationInput = document.getElementById('location');
