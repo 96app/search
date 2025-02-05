@@ -1,0 +1,65 @@
+/* Initially hide the business buttons container */
+#businessBtnsContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
+    z-index: 90;
+    display: none; /* Hidden initially */
+    text-align: center; /* Center text in the container */
+    flex-direction: row; /* Align buttons horizontally by default */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+}
+
+
+.google-icon-btn {
+    z-index: 990;
+}
+
+/* Hidden Buttons */
+.button-container {
+    position: fixed;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; /* Initially hidden */
+    text-align: center;
+}
+
+.action-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        bottom: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .google-icon-btn {
+        bottom: 20px;
+    }
+
+    .button-container {
+        bottom: 14%;
+    }
+}
+
+
+/* Style for message when not logged in */
+.message {
+    display: none; /* Hidden by default */
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
