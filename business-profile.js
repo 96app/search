@@ -39,7 +39,7 @@ const businesses = [
         verified: true
     },
     {
-        logo: './images/business-logos/default.png',
+        logo: './images/business-logos/rollz_logo.png',
         name: 'Rolda cleaning and laundry services',
         category: 'Cleaning Services',
         location: 'Polokwane',
