@@ -16,6 +16,10 @@
     white-space: nowrap;
 }
 
+.container p {
+    text-align: center;
+        }
+
 .google-icon-btn {
     z-index: 990;
 }
