@@ -244,7 +244,7 @@ businessElement.innerHTML = `
     </iframe>
     <div class="map-actions">
         <span class="report" onclick="toggleReportForm()" >Report</span>
-        <a href="${business.mapLink}" target="_blank" class="view-map">View Larger Map</a>
+        <a href="${business.mapLink}" target="_blank" class="view-map"></a>
     </div>
 
 <!-- Hidden Report Form -->
