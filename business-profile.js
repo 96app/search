@@ -40,7 +40,7 @@ const businesses = [
     },
     {
         logo: './images/business-logos/rollz_logo.png',
-        name: 'Rolda cleaning and laundry services',
+        name: 'Rolda cleaning services',
         category: 'Cleaning Services',
         location: 'Polokwane',
         areas: ['Seshego'], // Add areas here
