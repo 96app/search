@@ -12,6 +12,9 @@
     align-items: center; /* Center buttons vertically */
 }
 
+.action-btn {
+    white-space: nowrap;
+}
 
 .google-icon-btn {
     z-index: 990;
